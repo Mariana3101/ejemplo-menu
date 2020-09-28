@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body class="container ">
+    <section class="row flex-container"> 
+        <div class="col-8 ">
+            <form>
+                <div>
+                    <h3 >¿De d&oacute;nde sos?</h3><br>
+                        <!-- De donde sos -->
+                        <div class="form-group">
+                            <select class="form-control" id="opcion">
+                                <option>Buenos Aires</option>
+                                <option>Capital Federal</option>
+                                <option>Neuquen</option>
+                                <option>Cordoba</option>
+                                <option>Santa F&eacute;</option>
+                            </select>
+                        </div><br><br>
+                    <h3>¿Qu&eacute; te pareci&oacute; la iluminaci&oacute;n del ambiente?</h3><br>
+                        <!--Te gusto la iluminacion-->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"  value="">
+                            <label class="form-check-label">
+                            Muy Acorde
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"  value="">
+                            <label class="form-check-label">
+                            Buena, pero podr&iacute;a mejorar
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="">
+                            <label class="form-check-label">
+                            Mala
+                            </label>
+                        </div><br> <br>
+                    <h3>¿Qu&eacute; tipo de plato fue el que m&aacute;s te gust&oacute;  ?</h3>
+                        <!--te gusto la comida-->
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                            Entrada
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                            Plato Principal
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                            Postre
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                            Otros
+                            </label>
+                        </div><br><br>
+                        <!--recomendarias el lugar-->
+                    <h3>¿Recomendar&iacute;as el lugar ?</h3>
+                        <div class="form-check form-check-inline">
+                            
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Si</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">No</label>
+                        </div><br>
+                    <h3 for="comment">¿Porqu&eacute;? </h3>
+                        <!--porque-->
+                        <div class="form-group"><br>
+                            
+                            <textarea class="form-control" id="comment" rows="4" required></textarea>
+                        </div>
+            
+                    <h3 for="exampleFormControlSelect1">Dejanos tus datos y nos pondremos en contacto con vos</h3>
+                        <!--dejanos tus datos -->
+                        <div class="form-row">
+                            <div class="form-group ">
+                                <label for="usr">Nombre</label>
+                                <input type="text" class="form-control" id="usr" placeholder="Nombre" required>
+                            </div><br>
+                            <div class="form-group ">
+                                <label for="email">Email: </label>
+                                <input type="email" class="form-control" id="email" placeholder="Email"required>
+                            </div>
+                        </div><br>
+                </div>
+                <!--enviar -->
+                <button class="btn btn-warning pull-left" type="submit">Enviar </button>
+                <button class="btn btn-warning pull-right" type="reset">Resetear</button>
+            </form>
+           
+        </div>
+      
+    
+    </section>
+ 
+ <!--Hay que hacer las validaciones del formulario y terminar de arreglar como se ve -->
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="js/validacion.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

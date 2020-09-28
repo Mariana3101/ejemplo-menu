@@ -1,0 +1,41 @@
+
+
+*{
+   
+    box-sizing: border-box;
+  
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border-bottom: 1px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-footer{
+    width: 100%;
+ }
+
+.footer{
+    padding: 20px;
+    background-color:  #219ebc;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#ffffcc;
+}
+@media( min-width: 992px){
+    .footer-nav{
+        text-align:right ;
+    }
+}

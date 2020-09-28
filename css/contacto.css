@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    border:#ff8000 3px solid;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
