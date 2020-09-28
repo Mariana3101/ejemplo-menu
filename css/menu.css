@@ -24,18 +24,18 @@ body{
 }
 
 .img-footer{
-    width: 100%;
+    width: 50%;
  }
 
 .footer{
     padding: 20px;
-    background-color:  #219ebc;
+    background-color:  #D1F2EB ;
     font-size: 1.2rem;
     font-weight: bold;
     color:#ffffcc;
+   
 }
-@media( min-width: 992px){
-    .footer-nav{
-        text-align:right ;
-    }
+
+.footer-nav{
+    text-align: right;
 }
